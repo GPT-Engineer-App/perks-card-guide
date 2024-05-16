@@ -51,14 +51,6 @@ const Index = () => {
           <Divider my={4} />
           <HStack spacing={4}>
             <Stat>
-              <StatLabel>Wallet Balance</StatLabel>
-              <StatNumber>$1,200</StatNumber>
-              <StatHelpText>
-                <StatArrow type="increase" />
-                23.36%
-              </StatHelpText>
-            </Stat>
-            <Stat>
               <StatLabel>Recent Transactions</StatLabel>
               <StatNumber>5</StatNumber>
               <StatHelpText>Last 7 days</StatHelpText>
